@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Stage 1 tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q", "tests/test_quiz.py"],
+      "cwd": "${workspaceFolder}/stage_one",
+      "console": "integratedTerminal"
+    }
+  ]
+}

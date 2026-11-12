@@ -1,0 +1,708 @@
+{
+  "questions": [
+    {
+      "question": "Which Python keyword defines a function?",
+      "options": {
+        "A": "def",
+        "B": "func",
+        "C": "function",
+        "D": "define"
+      },
+      "correct_answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which Python data type stores an ordered, changeable collection?",
+      "options": {
+        "A": "tuple",
+        "B": "list",
+        "C": "set",
+        "D": "frozenset"
+      },
+      "correct_answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the expression 7 // 2 evaluate to in Python?",
+      "options": {
+        "A": "3.5",
+        "B": "4",
+        "C": "3",
+        "D": "1"
+      },
+      "correct_answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which symbol begins a single-line comment in Python?",
+      "options": {
+        "A": "//",
+        "B": "/*",
+        "C": "--",
+        "D": "#"
+      },
+      "correct_answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which built-in function returns the number of items in a list?",
+      "options": {
+        "A": "len()",
+        "B": "size()",
+        "C": "count()",
+        "D": "length()"
+      },
+      "correct_answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which Python value represents the absence of a value?",
+      "options": {
+        "A": "null",
+        "B": "None",
+        "C": "empty",
+        "D": "void"
+      },
+      "correct_answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword starts a conditional branch in Python?",
+      "options": {
+        "A": "when",
+        "B": "case",
+        "C": "if",
+        "D": "switch"
+      },
+      "correct_answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the result of len('quiz')?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "An error",
+        "D": "4"
+      },
+      "correct_answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which operator tests whether two values are equal in Python?",
+      "options": {
+        "A": "==",
+        "B": "=",
+        "C": "===",
+        "D": "!="
+      },
+      "correct_answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which loop is commonly used to visit each item in a Python list?",
+      "options": {
+        "A": "foreach",
+        "B": "for",
+        "C": "repeat",
+        "D": "loop"
+      },
+      "correct_answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the Python expression 'py' + 'thon' produce?",
+      "options": {
+        "A": "py thon",
+        "B": "['py', 'thon']",
+        "C": "python",
+        "D": "An error"
+      },
+      "correct_answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which list method adds an item to the end of a list?",
+      "options": {
+        "A": "add()",
+        "B": "insert_end()",
+        "C": "push()",
+        "D": "append()"
+      },
+      "correct_answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which Python keyword sends a value back from a function?",
+      "options": {
+        "A": "return",
+        "B": "yield",
+        "C": "send",
+        "D": "break"
+      },
+      "correct_answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which data type stores key-value pairs in Python?",
+      "options": {
+        "A": "list",
+        "B": "dictionary",
+        "C": "string",
+        "D": "range"
+      },
+      "correct_answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the Boolean result of 5 > 2?",
+      "options": {
+        "A": "False",
+        "B": "None",
+        "C": "True",
+        "D": "5"
+      },
+      "correct_answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which built-in Python module provides tools for working with JSON?",
+      "options": {
+        "A": "data",
+        "B": "file",
+        "C": "object",
+        "D": "json"
+      },
+      "correct_answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the expression 'hello'.upper() return?",
+      "options": {
+        "A": "HELLO",
+        "B": "Hello",
+        "C": "hello",
+        "D": "An error"
+      },
+      "correct_answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to create a class in Python?",
+      "options": {
+        "A": "object",
+        "B": "class",
+        "C": "struct",
+        "D": "new"
+      },
+      "correct_answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does a Python test commonly use to check that two values are equal?",
+      "options": {
+        "A": "expectSame",
+        "B": "checkEquals",
+        "C": "assertEqual",
+        "D": "verifyIdentical"
+      },
+      "correct_answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In a user story, who is the role usually described by the phrase 'As a ...'?",
+      "options": {
+        "A": "The project deadline",
+        "B": "The programming language",
+        "C": "The test result",
+        "D": "The user or stakeholder"
+      },
+      "correct_answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the main purpose of a Python virtual environment?",
+      "options": {
+        "A": "To isolate project dependencies",
+        "B": "To make Python code run without an interpreter",
+        "C": "To automatically write tests",
+        "D": "To convert Python into HTML"
+      },
+      "correct_answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does a Python function's docstring conventionally describe?",
+      "options": {
+        "A": "Only the author's contact information",
+        "B": "The function's purpose and usage",
+        "C": "The computer's operating system",
+        "D": "The exact time the function runs"
+      },
+      "correct_answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does a list comprehension produce?",
+      "options": {
+        "A": "A file containing Python source",
+        "B": "A class method",
+        "C": "A new list built from an expression and an iterable",
+        "D": "A test report only"
+      },
+      "correct_answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In Python, what is the purpose of a `with` statement when opening a file?",
+      "options": {
+        "A": "It automatically sorts the file contents",
+        "B": "It encrypts the file",
+        "C": "It converts the file to JSON",
+        "D": "It ensures the file is closed when the block exits"
+      },
+      "correct_answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does `enumerate(items)` provide while iterating?",
+      "options": {
+        "A": "Each item's index and value",
+        "B": "Only the last item",
+        "C": "A sorted copy of the items",
+        "D": "The total memory used by the items"
+      },
+      "correct_answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a common reason to use a Python `set`?",
+      "options": {
+        "A": "To preserve duplicate items in insertion order",
+        "B": "To store unique items and perform set operations",
+        "C": "To access values only by integer index",
+        "D": "To represent a decimal number"
+      },
+      "correct_answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the usual effect of raising an exception in Python?",
+      "options": {
+        "A": "It silently retries the current line",
+        "B": "It converts every variable to a string",
+        "C": "It signals an error or exceptional condition",
+        "D": "It starts a new Python process"
+      },
+      "correct_answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does `git commit` normally record?",
+      "options": {
+        "A": "A copy of every file on the computer",
+        "B": "A running Python process",
+        "C": "A list of installed packages",
+        "D": "A snapshot of staged changes in the repository history"
+      },
+      "correct_answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which test design checks behavior at the smallest and largest allowed inputs?",
+      "options": {
+        "A": "Boundary-value testing",
+        "B": "Load balancing",
+        "C": "Code formatting",
+        "D": "Pair programming"
+      },
+      "correct_answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does a mock object commonly replace in a unit test?",
+      "options": {
+        "A": "The programming language",
+        "B": "A dependency whose behavior the test needs to control",
+        "C": "Every assertion in the test",
+        "D": "The source code under test"
+      },
+      "correct_answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In test-driven development, what is the usual next step after a test fails for the expected reason?",
+      "options": {
+        "A": "Delete the test suite",
+        "B": "Add unrelated features",
+        "C": "Write the simplest implementation that makes it pass",
+        "D": "Skip directly to deployment"
+      },
+      "correct_answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does code coverage describe?",
+      "options": {
+        "A": "How many requirements are written in a document",
+        "B": "How quickly a developer types",
+        "C": "How many users are online",
+        "D": "How much of the source code is exercised by tests"
+      },
+      "correct_answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the main goal of a regression test?",
+      "options": {
+        "A": "Check that previously working behavior still works after a change",
+        "B": "Measure the developer's typing speed",
+        "C": "Replace all manual documentation",
+        "D": "Choose a project name"
+      },
+      "correct_answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which requirement is more testable?",
+      "options": {
+        "A": "The application should be easy to use",
+        "B": "The system shall display search results within two seconds for 95% of requests",
+        "C": "The page should load quickly",
+        "D": "The interface should feel modern"
+      },
+      "correct_answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is an acceptance criterion?",
+      "options": {
+        "A": "A list of programming keywords",
+        "B": "A database backup method",
+        "C": "A condition that must be met for work to be accepted",
+        "D": "A code editor preference"
+      },
+      "correct_answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does requirement traceability help a team do?",
+      "options": {
+        "A": "Run code without compiling it",
+        "B": "Replace version control",
+        "C": "Automatically remove all project risks",
+        "D": "Link requirements to their design, implementation, and tests"
+      },
+      "correct_answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a key benefit of a clear, atomic requirement?",
+      "options": {
+        "A": "It states one main need that can be reviewed and verified",
+        "B": "It combines many unrelated behaviors",
+        "C": "It avoids identifying any stakeholder",
+        "D": "It guarantees the project has no defects"
+      },
+      "correct_answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of a pull request review?",
+      "options": {
+        "A": "To delete the project's test history",
+        "B": "To discuss and inspect proposed changes before integrating them",
+        "C": "To replace all automated checks",
+        "D": "To create a new programming language"
+      },
+      "correct_answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does a continuous integration system commonly do?",
+      "options": {
+        "A": "Writes every requirement for the team",
+        "B": "Guarantees code has no bugs",
+        "C": "Runs automated checks when changes are submitted",
+        "D": "Replaces the need for source control"
+      },
+      "correct_answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the main purpose of a test fixture?",
+      "options": {
+        "A": "Randomly rewrite production code",
+        "B": "Store the project requirements permanently",
+        "C": "Measure network bandwidth",
+        "D": "Provide a known setup or cleanup context for tests"
+      },
+      "correct_answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a common risk of testing only through a system's user interface?",
+      "options": {
+        "A": "Tests may be slower and more fragile than focused lower-level tests",
+        "B": "The tests cannot check any user-visible behavior",
+        "C": "The application no longer needs requirements",
+        "D": "The tests automatically become unit tests"
+      },
+      "correct_answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of dependency injection?",
+      "options": {
+        "A": "Embed every dependency directly into a function",
+        "B": "Supply dependencies from outside a component to make them replaceable",
+        "C": "Prevent a program from using tests",
+        "D": "Convert source code into requirements"
+      },
+      "correct_answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Why can mutable default arguments cause surprising behavior in Python?",
+      "options": {
+        "A": "Python recreates the function on every call",
+        "B": "Mutable values cannot be passed to functions",
+        "C": "The default object is created once and can be shared across calls",
+        "D": "Default arguments are always converted to tuples"
+      },
+      "correct_answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the difference between `is` and `==` in Python?",
+      "options": {
+        "A": "`is` checks value equality; `==` checks object identity",
+        "B": "They are interchangeable in all cases",
+        "C": "`is` compares strings only",
+        "D": "`is` checks object identity; `==` checks value equality"
+      },
+      "correct_answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Why should a test avoid depending on the order of items when that order is unspecified?",
+      "options": {
+        "A": "It can fail nondeterministically even when behavior is correct",
+        "B": "It makes the test run without assertions",
+        "C": "It prevents the test from using fixtures",
+        "D": "It automatically increases code coverage"
+      },
+      "correct_answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does property-based testing generally do?",
+      "options": {
+        "A": "Tests only one manually selected example",
+        "B": "Checks general properties over many generated inputs",
+        "C": "Verifies property ownership of source files",
+        "D": "Replaces all application requirements"
+      },
+      "correct_answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is mutation testing used to evaluate?",
+      "options": {
+        "A": "Whether a program can alter its own source files",
+        "B": "How quickly requirements change",
+        "C": "Whether tests detect small, intentional changes to the code",
+        "D": "Whether a database supports transactions"
+      },
+      "correct_answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a test double that returns preconfigured responses often called?",
+      "options": {
+        "A": "Compiler",
+        "B": "Parser",
+        "C": "Adapter",
+        "D": "Stub"
+      },
+      "correct_answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "question": "When is an integration test most useful?",
+      "options": {
+        "A": "When verifying that multiple components work together",
+        "B": "When checking only a single expression without dependencies",
+        "C": "When naming a software release",
+        "D": "When writing a stakeholder interview transcript"
+      },
+      "correct_answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a common purpose of a risk-based testing strategy?",
+      "options": {
+        "A": "Test every feature exactly once, regardless of risk",
+        "B": "Prioritize testing based on likelihood and impact of failure",
+        "C": "Avoid documenting defects",
+        "D": "Focus only on the easiest requirements"
+      },
+      "correct_answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the main concern with an ambiguous requirement?",
+      "options": {
+        "A": "It will always require a database",
+        "B": "It cannot be written in plain language",
+        "C": "Different stakeholders may interpret or verify it differently",
+        "D": "It makes version control unusable"
+      },
+      "correct_answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the purpose of a requirements baseline?",
+      "options": {
+        "A": "Prevent stakeholders from reviewing requirements",
+        "B": "Automatically generate the finished software",
+        "C": "Store only rejected requirements",
+        "D": "Provide an agreed reference point for managing later changes"
+      },
+      "correct_answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Why should a change request be assessed for impact?",
+      "options": {
+        "A": "To understand effects on scope, cost, schedule, design, and tests",
+        "B": "To make sure no one records the change",
+        "C": "To avoid identifying affected requirements",
+        "D": "To guarantee the request is rejected"
+      },
+      "correct_answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does the INVEST guideline encourage for user stories?",
+      "options": {
+        "A": "Stories that include implementation code and database backups",
+        "B": "Stories that are independent, negotiable, valuable, estimable, small, and testable",
+        "C": "Stories that cannot be changed after planning",
+        "D": "Stories that combine every feature into one item"
+      },
+      "correct_answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a non-functional requirement?",
+      "options": {
+        "A": "A requirement that has no stakeholder",
+        "B": "A function that returns no value",
+        "C": "A constraint or quality attribute such as performance or security",
+        "D": "A requirement that cannot be tested"
+      },
+      "correct_answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the purpose of a traceability matrix?",
+      "options": {
+        "A": "Calculate source-code indentation",
+        "B": "Schedule the team's daily meetings",
+        "C": "Replace the project's version history",
+        "D": "Show relationships between requirements and related artifacts"
+      },
+      "correct_answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does the test pyramid recommend?",
+      "options": {
+        "A": "Having many fast, focused tests and fewer broad, slow tests",
+        "B": "Using only end-to-end tests",
+        "C": "Avoiding unit tests because they are too small",
+        "D": "Writing tests only after deployment"
+      },
+      "correct_answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Why is deterministic behavior important in automated tests?",
+      "options": {
+        "A": "Tests should pass only on one developer's computer",
+        "B": "The same input should produce predictable results across runs",
+        "C": "It guarantees every test executes instantly",
+        "D": "It removes the need to check expected results"
+      },
+      "correct_answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does a flaky test do?",
+      "options": {
+        "A": "Always checks the same expected result successfully",
+        "B": "Tests a user interface on several screen sizes",
+        "C": "Sometimes passes and sometimes fails without a relevant code change",
+        "D": "Runs only when a developer requests it"
+      },
+      "correct_answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Why is it useful to keep a requirement's acceptance criteria independent of its implementation details?",
+      "options": {
+        "A": "It prevents the requirement from being tested",
+        "B": "It ensures the implementation cannot change",
+        "C": "It removes the need to identify the requirement's user",
+        "D": "It allows the required outcome to be verified without prescribing one design"
+      },
+      "correct_answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the main purpose of a defect severity classification?",
+      "options": {
+        "A": "Describe the impact of a defect on the system or users",
+        "B": "Record which developer typed the most code",
+        "C": "Determine the programming language used",
+        "D": "Replace the steps needed to reproduce a defect"
+      },
+      "correct_answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the main purpose of a code review checklist?",
+      "options": {
+        "A": "Guarantee that reviewed code contains no defects",
+        "B": "Prompt reviewers to examine important quality and correctness concerns",
+        "C": "Replace running automated tests",
+        "D": "Prevent discussion of design choices"
+      },
+      "correct_answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a useful property of a well-isolated unit test?",
+      "options": {
+        "A": "It requires a live production database",
+        "B": "It verifies every user workflow at once",
+        "C": "It can identify failures in a small unit without relying on unrelated systems",
+        "D": "It cannot be run independently"
+      },
+      "correct_answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Why should a test for a random shuffle avoid asserting one exact order?",
+      "options": {
+        "A": "Randomized code cannot be tested",
+        "B": "The original order is always incorrect",
+        "C": "Python lists do not have a defined length",
+        "D": "A valid shuffle can produce many different orders"
+      },
+      "correct_answer": "D",
+      "difficulty": "hard"
+    }
+  ]
+}
