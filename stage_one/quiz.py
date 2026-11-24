@@ -1,12 +1,12 @@
 """A simple multiple-choice quiz for Stage 1."""
 
 from collections.abc import Callable, Iterable, Sequence
-from typing import TypedDict
-
-
+from typing import TypedDict, Union, Callable, Iterable, Sequence, Dict
+from typing import Union
+from typing import Optional
 class Question(TypedDict):
     question: str
-    options: dict[str, str]
+    options: Dict[str, str]
     correct_answer: str
 
 
@@ -76,10 +76,9 @@ def calculate_score(results: Iterable[bool]) -> tuple[int, int]:
 
 
 def play_quiz(
-    questions: Sequence[Question] = QUESTIONS,
-    input_fn: Callable[[str], str] | None = None,
-    output_fn: Callable[[str], None] | None = None,
-) -> tuple[int, int]:
+     questions: Sequence[Question] = QUESTIONS,
+    input_fn: Union[Callable[[str], str], None] = None,
+    output_fn: Union[Callable[[str], None], None] = None,) -> tuple[int, int]:
     """Run one quiz round and return the correct and total question counts."""
     if input_fn is None:
         input_fn = input
