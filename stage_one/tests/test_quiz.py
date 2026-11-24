@@ -2,7 +2,7 @@ from unittest.mock import Mock
 
 import pytest
 
-from quiz import QUESTIONS, calculate_score, is_correct_answer, play_quiz
+from stage_one.quiz import QUESTIONS, calculate_score, is_correct_answer, play_quiz
 
 
 @pytest.mark.parametrize(
